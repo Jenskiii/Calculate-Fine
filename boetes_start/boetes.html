@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+
+    </head>
+    <body>
+        <label for="mySlider">Hoe hard rijdt u in de bebouwde kom?</label><br><input value="0" type="range" min="0" max="120" id="mySlider"><output id="output">...</output>
+        <br><div id="feedback"></div>
+        <p id="boetekop">Boetebedrag (inclusief &euro; 9,- administratiekosten):</p>
+        <div id="boetebalk"><span id="boetebedrag"></span></div>
+        <table id="staffeltabel"></table>
+        <p id="boete"></p>
+        <script src="boetes.js" async defer></script>
+    </body>
+</html>
